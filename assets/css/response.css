@@ -1,3 +1,32 @@
-@media screen and (max-width:1814px) {
-    #grid{}
+@media screen and (min-width: 1200px) { 
+    #grid{
+
+    }
+    .hero-title{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:992px){
+    #grid{
+        flex-direction: column;
+        text-align: center;
+    }
+    #pixel-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .left-bar img{
+        width: 600px;
+        margin: 0 auto;
+    }
+    #help-cards{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #design-grid{
+        flex-direction: column;
+        text-align: center;
+    }
 }
