@@ -1,0 +1,121 @@
+/* Navbar section Start  */
+.nav-link {
+    color: #000;
+}
+
+.custom-btn {
+    background: #4CAF4F;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.custom-btn:hover {
+    background: #5ccc5f;
+    color: #fff;
+}
+
+/* Navbar section End  */
+
+/* Hero Section Start */
+.hero-section {
+    background: #F5F7FA;
+}
+
+.hero-title {
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.hero-title span {
+    color: #4CAF4F;
+    text-transform: capitalize;
+}
+
+.hero-subtitle {
+    color: #717171;
+    font-size: 13px;
+}
+
+.hero-btn {
+    background-color: #4CAF4F;
+    color: #FFF;
+}
+
+/* Hero Section End */
+
+
+/* Client Section Start  */
+.client-images {
+    padding-top: 2rem;
+    gap: 6rem;
+}
+
+/* Client Section End  */
+
+/* Community Section Start  */
+.communi-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 0px 2rem;
+}
+
+.communi-cards h1 {
+    font-size: 2.2rem;
+    color: #717171;
+    font-weight: 700;
+}
+
+.communi-cards p {
+    font-size: 15px !important;
+    color: #717171;
+}
+
+/* Community Section End  */
+
+/* Pixel Section Start  */
+.pixel-title {
+    font-size: 3rem;
+    color: #717171;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 2%;
+}
+
+.pixel-subtitle {
+    font-size: 15px;
+    color: #717171 !important;
+    padding-bottom: 5%;
+}
+
+.pixel-btn {
+    background: hsl(122, 39%, 49%);
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+/* Pixel Section End  */
+
+
+/* Help Section Start  */
+.help-cards img{
+    width: 60px;
+}
+.text-content{
+    line-height: 0;
+}
+.text-content h5 {
+    font-size: 20px ;
+    color: #717171;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.text-content p{
+    font-size: 15px;
+}
+/* Help Section End  */
