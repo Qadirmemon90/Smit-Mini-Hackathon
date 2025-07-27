@@ -1,32 +1,50 @@
-@media screen and (min-width: 1200px) { 
-    #grid{
+@media screen and (min-width: 1200px) {
+    #grid {}
 
-    }
-    .hero-title{
+    .hero-title {
         font-size: 4rem;
     }
 }
 
-@media screen and (max-width:992px){
-    #grid{
+@media screen and (max-width:992px) {
+    #grid {
         flex-direction: column;
         text-align: center;
     }
-    #pixel-container{
+
+    #pixel-container {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .left-bar img{
+
+    .left-bar img {
         width: 600px;
-        margin: 0 auto;
+        margin-left: -9.5rem;
+
     }
-    #help-cards{
+
+    #help-cards {
         flex-direction: column;
         text-align: center;
         margin: 0 auto;
     }
-    #design-grid{
+
+    #help-sm {
+        margin-left: 25%;
+    }
+
+    .help-title {
+        font-size: 2rem;
+    }
+
+    #design-grid {
         flex-direction: column;
         text-align: center;
+    }
+
+    #tesla-grid {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
     }
 }
