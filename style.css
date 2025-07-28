@@ -50,6 +50,10 @@
     gap: 6rem;
 }
 
+.client-images img {
+    width: 100px;
+}
+
 /* Client Section End  */
 
 /* Community Section Start  */
@@ -102,20 +106,120 @@
 
 
 /* Help Section Start  */
-.help-cards img{
+.help-cards img {
     width: 60px;
 }
-.text-content{
+
+.text-content {
     line-height: 0;
 }
+
 .text-content h5 {
-    font-size: 20px ;
+    font-size: 20px;
     color: #717171;
     text-transform: capitalize;
     font-weight: 700;
 }
 
-.text-content p{
+.text-content p {
     font-size: 15px;
 }
+
 /* Help Section End  */
+
+
+/* Care Section Start   */
+.care-card {
+    position: relative;
+    border-radius: 50px !important;
+}
+
+.card-content {
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+    width: 350px;
+    height: 170px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 2px #0000001e;
+}
+
+.card-content h4 {
+    font-size: 1.3rem;
+}
+
+/* Care Section End  */
+
+
+/* Footer Section Start  */
+.footer {
+    background: #263238;
+    height: 350px;
+}
+
+.demo-title {
+    font-size: 5rem;
+}
+
+.demo-btn {
+    margin-top: 2.5rem;
+    background: #4CAF4F;
+    color: #FFF;
+}
+
+#nav-item {
+    color: #dadada;
+}
+
+#nav-link {
+    color: #e2e2e2;
+    line-height: 2;
+}
+
+.form {
+    margin-top: 1.5rem;
+    background: #ffffff25;
+    border-radius: 30px;
+}
+
+.form input {
+    background: none;
+    border: none;
+    padding: 1rem;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.form img {
+    width: 25px;
+    margin-left: -7% !important;
+}
+
+.form input:active,
+.form input:focus {
+    border: none;
+}
+
+.brand-img {
+    margin-top: -5% !important;
+}
+
+.copyright p {
+    margin-top: 5%;
+    color: #fff !important;
+}
+
+.brands-media i {
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+    background: #ffffff2d;
+    border-radius: 50px;
+    padding-top: 5%;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* Footer Section End  */

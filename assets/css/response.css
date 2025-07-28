@@ -4,6 +4,7 @@
     .hero-title {
         font-size: 4rem;
     }
+
 }
 
 @media screen and (max-width:992px) {
@@ -46,5 +47,21 @@
         flex-direction: column;
         text-align: center;
         margin: 0 auto;
+    }
+    #footer-container{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-navbar {
+        margin-top: 5% ;
+        float: left;
+    }
+    .footer-form{
+        padding-top: 10rem !important;
     }
 }
